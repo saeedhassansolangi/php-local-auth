@@ -5,13 +5,9 @@ require('./db.php');
 ?>
 
 <div class="main">
-
  <div class="main-head">
      <h2>Register User</h2>
-
      <p class="page_link"><a href="login_form.php">Login Here</a></p>
-
-
  </div>
 
 <div class="message"></div>
@@ -38,9 +34,6 @@ require('./db.php');
 
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-
-
-
 </div>
 
 <?php

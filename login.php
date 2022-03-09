@@ -19,7 +19,6 @@ if($result = mysqli_query($connection, $sql)) {
            if ($row['password'] == $password) {
                   $_SESSION['username'] = $username;
                echo '<p class="alert alert-success mt-3" role="alert">success</p>';
-
            } else {
                echo '<p class="alert alert-danger mt-3" role="alert">wrong password</p>';
            }

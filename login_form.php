@@ -51,7 +51,7 @@ require('./partials/footer.php');
             if(xhr.responseText.includes('success')){
                 window.location.href = "./welcome.php";
             }else{
-                console.log(xhr.responseText)
+                // console.log(xhr.responseText)
                 document.querySelector('.dataContainer').innerHTML = xhr.responseText;
             }
             }
